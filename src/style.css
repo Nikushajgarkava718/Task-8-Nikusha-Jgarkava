@@ -86,8 +86,12 @@ li {
   }
 }
 
+section {
+  margin-left: 200px;
+}
+
 .title {
-  margin-top: 400px;
+  margin-top: 350px;
   font-size: 32px;
   font-family: "Helvetica-Neue-55", sans-serif;
 }
@@ -95,6 +99,7 @@ li {
 .services {
   margin-top: 60px;
   display: flex;
+  gap: 25px;
   .square {
     background-color: #f9f9f9;
     width: 70px;
