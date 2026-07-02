@@ -85,3 +85,36 @@ li {
     }
   }
 }
+
+.title {
+  margin-top: 400px;
+  font-size: 32px;
+  font-family: "Helvetica-Neue-55", sans-serif;
+}
+
+.services {
+  margin-top: 60px;
+  display: flex;
+  .square {
+    background-color: #f9f9f9;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 40px;
+    &:hover {
+      background-color: #0a22f4;
+    }
+  }
+
+  .ser {
+    max-width: 463px;
+    min-height: 235px;
+    h3 {
+      font-size: 22px;
+      font-family: "Helvetica-Neue-55", sans-serif;
+    }
+    p {
+      font-size: 16px;
+      font-family: "Helvetica-Neue-55", sans-serif;
+    }
+  }
+}
